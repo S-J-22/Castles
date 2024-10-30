@@ -194,3 +194,157 @@ footer .social-links a{
     background-size: 16px;
     padding-left: 40px;
 }
+
+@media(max-width: 768px){
+
+    header{
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+    }
+
+
+
+    nav ul{
+
+        flex-direction: column;
+
+        width: 100%;
+
+    }
+
+
+
+    nav ul li{
+
+        margin: 10px 0;
+
+    }
+
+
+
+    .hero h1{
+
+        font-size: 36px;
+
+    }
+
+
+
+    .features{
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+
+
+    .feature{
+
+        width: 80%;
+
+        margin-bottom: 20px;
+
+    }
+
+
+
+    .product-list{
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+
+
+    .product-item{
+
+        width: 90%;
+
+    }
+
+}
+
+
+
+@media(max-width: 480px){
+
+    .hero h1{
+
+        font-size: 28px;
+
+    }
+
+
+
+    .hero p{
+
+        font-size: 16px;
+
+    }
+
+
+
+    .cta-btn{
+
+        padding: 8px 10px;
+
+    }
+
+
+
+    .features{
+
+        padding: 20px 0;
+
+    }
+
+
+
+    .feature img{
+
+        width: 80%;
+
+    }
+
+
+
+    footer p, .footer-content p{
+
+        font-size: 14px
+
+    }
+
+
+
+    .products h1{
+
+        font-size: 28px;
+
+    }
+
+
+
+    .product-item{
+
+        width: 100%;
+
+        padding: 15px;
+
+    }
+
+
+
+    .about h1, .about h2{
+
+        font-size: 24px;
+
+    }
+
+}
